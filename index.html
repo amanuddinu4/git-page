@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Visionary Creations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://img.freepik.com/premium-vector/vc-logo_590037-39.jpg?w=826" alt="Visionary Creations Logo">
+            <h1>Visionary Creations</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Empowering Your Digital Vision</h2>
+            <p>Building professional solutions tailored to your success.</p>
+            <a href="#services" class="btn">Discover Our Services</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="icon">🌐</i>
+                    <h3>Web Design</h3>
+                    <p>Crafting stunning, user-friendly designs that captivate audiences.</p>
+                </div>
+                <div class="card">
+                    <i class="icon">📈</i>
+                    <h3>SEO Solutions</h3>
+                    <p>Boosting visibility with cutting-edge optimization techniques.</p>
+                </div>
+                <div class="card">
+                    <i class="icon">📣</i>
+                    <h3>Marketing</h3>
+                    <p>Driving growth with innovative marketing strategies tailored for impact.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-gallery">
+                <div class="gallery-item" style="background-image: url('portfolio1.jpg');"></div>
+                <div class="gallery-item" style="background-image: url('portfolio2.jpg');"></div>
+                <div class="gallery-item" style="background-image: url('portfolio3.jpg');"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
