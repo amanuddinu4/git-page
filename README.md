@@ -114,6 +114,7 @@ Tools Used
 
 
 # 2. CSS Code
+
 ```css
    /* General Styles */
 body {
