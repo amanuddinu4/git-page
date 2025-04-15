@@ -21,7 +21,7 @@ Tools Used
 <body>
     <header>
         <div class="logo">
-            <img src="https://img.freepik.com/premium-vector/vc-logo_590037-39.jpg?w=826" alt="Visionary Creations Logo">
+            <img src="img.png" alt="Visionary Creations Logo">
             <h1>Visionary Creations</h1>
         </div>
         <nav>
