@@ -115,7 +115,7 @@ Tools Used
 
 # 2. CSS Code
 
-```css
+
    /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -313,7 +313,7 @@ footer {
         flex-direction: column;
     }
 }
-```markdown
+```markup
 # Deployment Guide
 
 - Prepare the Code:- Save the HTML code as index.html.
