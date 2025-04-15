@@ -10,7 +10,7 @@ Tools Used
 # Code Explanation
 # 1. HTML Code
 <br><br>
- 
+ ```html
  <!DOCTYPE html>
 <html lang="en">
 <head>
