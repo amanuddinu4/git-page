@@ -9,7 +9,7 @@ Tools Used
 
 # Code Explanation
 
- ```html
+ ```
 # 1. HTML Code
 
  <!DOCTYPE html>
@@ -110,12 +110,12 @@ Tools Used
 </body>
 </html>
 
-```markdown
+```
 
 
 # 2. CSS Code
 
-
+ ```
    /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -314,10 +314,7 @@ footer {
     }
 }
 
-
-
-
-#############
+```
 
 # Deployment Guide
 
