@@ -8,9 +8,10 @@ Tools Used
 - GitHub Pages: To host and publish the website.
 
 # Code Explanation
-# 1. HTML Code
-<br><br>
+
  ```html
+# 1. HTML Code
+
  <!DOCTYPE html>
 <html lang="en">
 <head>
