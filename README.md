@@ -7,15 +7,15 @@ Tools Used
 - CSS: To style the website.
 - GitHub Pages: To host and publish the website.
 
-Code Explanation
-1. HTML Code
+# Code Explanation
+# 1. HTML Code
  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Visionary Creations</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="img.png" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -107,7 +107,8 @@ Code Explanation
 </body>
 </html>
 
-2. CSS Code
+# 2. CSS Code
+ 
    /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -306,21 +307,21 @@ footer {
     }
 }
 
-Deployment Guide
+# Deployment Guide
 
 - Prepare the Code:- Save the HTML code as index.html.
 - Save the CSS code as style.css.
 - Add any necessary images (e.g., hero-image.jpg).
 
- Create a GitHub Repository:
+ # Create a GitHub Repository:
 - Go to GitHub and create a new repository.
 - Upload the files to the repository.
 
- Enable GitHub Pages:
+#  Enable GitHub Pages:
 - Go to the repository’s Settings.
 - Under the Pages section, set the source to main branch and root folder.
 
-  Access Your Website:-
+ #  Access Your Website:-
 - GitHub will provide a live link (e.g., https://<username>.github.io/<repo-name>).
 
 
