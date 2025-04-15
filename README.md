@@ -313,7 +313,12 @@ footer {
         flex-direction: column;
     }
 }
-```markup
+
+
+
+
+
+
 # Deployment Guide
 
 - Prepare the Code:- Save the HTML code as index.html.
